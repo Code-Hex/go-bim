@@ -1,5 +1,8 @@
 # go-bim
 
+[![test](https://github.com/Code-Hex/go-bim/actions/workflows/test.yml/badge.svg)](https://github.com/Code-Hex/go-bim/actions/workflows/test.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Code-Hex/go-bim.svg)](https://pkg.go.dev/github.com/Code-Hex/go-bim)
+
 go-bim is a small collection of Go packages for building exchange formats.
 Right now it covers IFC, IDS, and ST-Bridge.
 
