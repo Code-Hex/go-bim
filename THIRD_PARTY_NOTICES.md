@@ -31,3 +31,17 @@ The vendored files under `ifc/reference/express/**` are distributed as copied
 official IFC schema material and are excluded from the repository's MIT
 license. Keep them attributable to buildingSMART International Ltd. and do not
 relicense them as MIT.
+
+## ST-Bridge reference material and samples
+
+- Locations: `stbridge/reference/**`, `stbridge/testdata/samples/**`
+- Public source site used during import review:
+  <https://www.building-smart.or.jp/meeting/buildall/structural-design/>
+- Local provenance notes: `stbridge/reference/SOURCES.txt`,
+  `stbridge/reference/sources/*.md`
+
+These files were imported with the `stbridge` package from the original
+`go-stbridge` worktree and include ST-Bridge XSD files, transcription notes,
+and sample documents. No explicit public reuse license was identified during
+import review, so they are excluded from this repository's MIT license. This
+repository does not relicense them as MIT.

@@ -31,6 +31,8 @@ The following content is not covered by the MIT License above:
 
 - ids/reference/official/**
 - ifc/reference/express/**
+- stbridge/reference/**
+- stbridge/testdata/samples/**
 
 Those files are verbatim copies of official buildingSMART IDS reference
 materials and remain licensed under the Creative Commons
@@ -40,7 +42,13 @@ The files under `ifc/reference/express/**` are copied official buildingSMART IFC
 EXPRESS schema files and also remain licensed under the Creative Commons
 Attribution-NoDerivatives 4.0 International License (CC BY-ND 4.0).
 
+The files under `stbridge/reference/**` and `stbridge/testdata/samples/**`
+include copied or transcribed ST-Bridge reference materials and sample files.
+No explicit public reuse license was identified during import review, so this
+repository excludes them from the MIT license instead of guessing.
+
 See:
 - ids/reference/official/LICENSE.buildingSMART-IDS.txt
 - ifc/reference/express/LICENSE.buildingSMART-IFC.txt
+- stbridge/reference/SOURCES.txt
 - THIRD_PARTY_NOTICES.md

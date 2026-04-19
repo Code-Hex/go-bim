@@ -1,0 +1,24 @@
+ST-Bridge reference notes for go-bim
+
+Imported on 2026-04-19 from the local go-stbridge repository at:
+- /Users/keikamikawa/go/src/github.com/Code-Hex/go-stbridge
+
+Contents carried into this repository:
+- reference/xsd/*.xsd
+- reference/transcriptions/*.md
+- reference/sources/*.md
+- ../testdata/samples/20171030/*
+
+Public ST-Bridge publication site referenced during import review:
+- https://www.building-smart.or.jp/meeting/buildall/structural-design/
+
+The detailed provenance notes for individual ST-Bridge versions and local source
+materials are preserved in:
+- reference/sources/stbridge-historical-specification-and-changelog.md
+- reference/sources/stbridge-local-corpus.md
+
+License handling:
+- No explicit public reuse license was identified during import review.
+- stbridge/reference/** and stbridge/testdata/samples/** are excluded from this
+  repository's MIT license.
+- This repository does not relicense those materials as MIT.
