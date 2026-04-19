@@ -25,3 +25,8 @@ Official releases used by this package:
    ISO publication: ISO 16739-1:2024
    EXPRESS URL:
    https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/IFC4X3_ADD2.exp
+
+License handling for vendored IFC schema material:
+- ifc/reference/express/** is excluded from this repository's MIT license.
+- Those copied EXPRESS schema files remain under buildingSMART's CC BY-ND 4.0 license.
+- See ifc/reference/express/LICENSE.buildingSMART-IFC.txt and THIRD_PARTY_NOTICES.md.

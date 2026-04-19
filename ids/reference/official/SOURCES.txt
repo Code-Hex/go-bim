@@ -1,0 +1,24 @@
+buildingSMART IDS reference sources for go-bim
+
+Snapshot date: 2026-04-19
+
+Official IDS standards confirmed from primary sources:
+- v1.0.0 is the only official buildingSMART IDS standard.
+  - GitHub release: https://github.com/buildingSMART/IDS/releases/tag/v1.0.0
+    published 2024-06-03T15:52:52Z
+  - buildingSMART page: https://www.buildingsmart.org/standards/bsi-standards/information-delivery-specification-ids/
+    states IDS v1.0 is the final standard and previous versions were beta iterations.
+
+Non-official but relevant compatibility reference:
+- 0.9.7 candidate schema: https://standards.buildingsmart.org/IDS/0.9.7/ids.xsd
+
+Vendored under ids/reference/official/v1.0.0:
+- Schema/ids.xsd downloaded from https://standards.buildingsmart.org/IDS/1.0/ids.xsd
+- Documentation/*.md plus Documentation/testcases/*.md downloaded from https://github.com/buildingSMART/IDS/tree/v1.0.0/Documentation
+- Representative official .ids examples downloaded from https://github.com/buildingSMART/IDS/tree/v1.0.0/Documentation/testcases
+ - SHA256SUMS records checksums for every vendored file in v1.0.0
+
+License handling for vendored reference material:
+- ids/reference/official/** is excluded from this repository's MIT license.
+- Those copied reference files remain under buildingSMART's CC BY-ND 4.0 license.
+- See ids/reference/official/LICENSE.buildingSMART-IDS.txt and THIRD_PARTY_NOTICES.md.
