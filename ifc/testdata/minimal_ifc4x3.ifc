@@ -1,0 +1,14 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('ViewDefinition [CoordinationView]'),'2;1');
+FILE_NAME('minimal.ifc','2026-04-19T00:00:00',('Codex'),('Code-Hex'),'preprocessor','go-bim','author');
+FILE_SCHEMA(('IFC4X3_ADD2'));
+ENDSEC;
+DATA;
+#1=IFCORGANIZATION($,'Code-Hex',$,$,$);
+#2=IFCAPPLICATION(#1,'1.0','go-bim','GOBIM');
+#3=IFCACTORROLE(.ARCHITECT.,$,'\X2\00C4\X0\');
+#4=IFCPROPERTYSINGLEVALUE('Display Name',$,IFCTEXT('\X2\00C4\X0\'),$);
+#5=IFCAXIS2PLACEMENT2D(IFCCARTESIANPOINT((0.,0.)),$);
+ENDSEC;
+END-ISO-10303-21;

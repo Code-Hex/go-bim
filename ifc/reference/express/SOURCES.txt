@@ -1,0 +1,27 @@
+Official IFC schema references copied from buildingSMART Technical.
+
+Verified on 2026-04-19 (Asia/Tokyo) against:
+https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/
+
+Official releases used by this package:
+
+1. IFC 2x3 TC1
+   Status: Official
+   Published: 2007-07
+   ISO publication: ISO/PAS 16739:2005
+   EXPRESS URL:
+   https://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/EXPRESS/IFC2X3_TC1.exp
+
+2. IFC 4 ADD2 TC1
+   Status: Official
+   Published: 2017-10
+   ISO publication: ISO 16739-1:2018
+   EXPRESS URL:
+   https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/EXPRESS/IFC4.exp
+
+3. IFC 4.3 ADD2
+   Status: Official
+   Published: 2024-04
+   ISO publication: ISO 16739-1:2024
+   EXPRESS URL:
+   https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/IFC4X3_ADD2.exp
