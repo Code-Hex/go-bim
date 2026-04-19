@@ -25,4 +25,6 @@ var (
 	ErrCyclicInheritance = errors.New("ifc: cyclic inheritance")
 	// ErrArgumentCountMismatch reports a mismatch between schema attributes and instance arguments.
 	ErrArgumentCountMismatch = errors.New("ifc: explicit attribute / argument count mismatch")
+	// ErrValidationVersionRequired reports that validation needs a supported effective schema version.
+	ErrValidationVersionRequired = errors.New("ifc: validation requires a supported schema version")
 )
